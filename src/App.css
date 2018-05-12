@@ -1,0 +1,50 @@
+.holder {
+  display: flex;
+  flex-direction: row;
+}
+.tabs {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  margin-left: 100px;
+}
+.selected {
+  color: #13f;
+}
+.unselected {
+  color: #fff;
+}
+.holder {
+  display: flex;
+  background: #bbb;
+}
+.tabs {
+  display: flex;
+}
+.holder.vertical {
+  flex-direction: row;
+}
+.tabs.vertical {
+  margin-left: 10px;
+  flex-direction: column;
+}
+.body.vertical {
+  margin-left: 100px;
+}
+.holder.horizontal {
+  flex-direction: column;
+}
+.tabs.horizontal {
+  flex-direction: row;
+  margin-left: auto;
+}
+.tabs.horizontal h1 {
+  margin-right: 100px;
+}
+.event {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
